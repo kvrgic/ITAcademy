@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(0,0,0);
+    font-family: 'Spline Sans', sans-serif;
+}
+#wrapper {
+    background: linear-gradient(to bottom, #fff 0%, #ccd4e0 100%);
+    width: 33%;
+    padding: 15px;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+h1, h2 {
+    margin: 0;
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    
+}
+table{
+    padding-top: 15px;
+    width: 100%;
+    
+}
+table, tr, td{
+    padding: 3px 0;
+    font-size: 0.9em;
+    
+}
+input{
+    width: 100%;
+}
+input, select{
+    padding: 10px 0;
+}
+
+button{
+    border: 1px solid green;
+    width: 50%;
+    background-color:  rgba(121,179,93,255);
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+label {
+    display: block;
+    text-align: right;
+  }
+select {
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #eeefeb 0%, #fff 100%);
+  }
