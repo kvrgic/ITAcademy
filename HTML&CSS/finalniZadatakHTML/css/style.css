@@ -1,0 +1,159 @@
+body{
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+.mg {
+    margin-bottom: 15px;
+}
+#wrapper{
+    width: 960px;
+    padding: 15px;
+    background-color: #fff; 
+    margin: auto;
+}
+#header{
+    background-color: #c51417;
+}
+.clear{
+    clear: both;
+}
+#header h1{
+    color: white;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    padding: 15px;
+    letter-spacing: 5px; 
+    float: left;
+}
+#header p{
+    display: block;
+    color: white;
+    font-style: italic;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2em;
+    float: right;
+}
+#nav{
+    background-color: #333333;
+    overflow: hidden;
+}
+#nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    display: block;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 15px;
+    transition: background-color .5s;
+}
+#nav ol li a:hover{
+    background-color: #c51417;
+}
+.extraClass{
+    font-size: 25px;
+    color: #ffffff;
+    float: right;
+    margin: 0;
+    padding: 10px 5px;
+    transition: color .5s;
+    cursor: pointer;
+}
+.mgright{
+    margin-right: 15px;
+}
+.extraClass:hover{
+    color: #c51417;
+}
+#main{
+    width: 700px;
+    background-color: #ffffff;
+    float: left;
+}
+#main img{
+    width: 700px;
+    height: auto;
+}
+#sidebar{
+    width: 240px;
+    background-color: #ffffff;
+    float: right;
+}
+#sidebar h2{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #bbbbbb;
+    margin: 0;
+    padding: 10px;
+}
+#sidebar img{
+    width:100%;
+    margin-top: 15px;
+}
+#sidebar a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #c51417;
+}
+#footer{
+    clear: both;
+    background-color: #333333;
+    width: 100%;
+}
+#footer p{
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    transition: color .5s;
+    margin: 0;
+}
+#footer p:hover{
+    color: #bbbbbb
+}
+
+table{
+    padding-top: 15px;
+    width: 95%;
+}
+table, tr, td{
+    padding: 3px 0;
+    font-size: 0.9em; 
+}
+input{
+    width: 100%;
+}
+input, select{
+    padding: 10px 0;
+}
+button{
+    border: 1px solid green;
+    width: 50%;
+    background-color:  rgba(121,179,93,255);
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+label {
+    display: block;
+    text-align: right;
+}
+select {
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #eeefeb 0%, #fff 100%);
+}
+.form {
+    background: linear-gradient(to bottom, #fff 0%, #ccd4e0 100%);
+    width: 100%;
+}
