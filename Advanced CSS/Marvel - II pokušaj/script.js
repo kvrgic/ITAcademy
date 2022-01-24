@@ -12,7 +12,6 @@ var table = document.createElement('table');
 var headerRow = document.createElement('tr');
 console.log(table);
 
-
 for(var headName of headers){
 
     var headerCol = document.createElement('th');
@@ -21,27 +20,26 @@ for(var headName of headers){
 }
 table.appendChild(headerRow);
 
-for (var objec of data){
-    var rows = document.createElement('tr');
-    var objekti = objec;
-
-    for (var key in objekti){
-        
-        if(key == 'img'){
-            var cell = document.createElement('td');
-            var img = document.createElement('img');
-            img.src = objekti[key];
-            cell.appendChild(img);
-        } else{
-            var cell = document.createElement('td');
-            cell.innerHTML = objekti[key];
-        }
-        rows.appendChild(cell);
-        
-    }
-    table.appendChild(rows);
+for (var i=0; i<data.length; i++){
+    var heroj = data[i];//objekat
+    var bodyRows  = document.createElement('tr');
+    var idcell = document.createElement('td');
+    idcell.innerHTML = heroj.id;
+    var namecell = document.createElement('td');
+    namecell.innerHTML = heroj.name;
+    var descriptioncell = document.createElement('td');
+    descriptioncell.innerHTML = heroj.description;
+    var imgcell = document.createElement('td');
+    var herojImg = document.createElement('img');
+    herojImg.src = heroj.img;
+    imgcell.appendChild(herojImg);
+    
+    bodyRows.appendChild(idcell);
+    bodyRows.appendChild(namecell);
+    bodyRows.appendChild(descriptioncell);
+    bodyRows.appendChild(imgcell);
+    table.appendChild(bodyRows);
 }
 myTable.appendChild(table);
-
 }
 

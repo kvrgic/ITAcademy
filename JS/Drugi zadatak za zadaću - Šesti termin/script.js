@@ -1,4 +1,4 @@
-var language = 'en_us';
+var language = 'bs_bh';
 var locales = {
     'en_us':{
         hello: 'Hello',
@@ -9,6 +9,11 @@ var locales = {
         hello: 'Dobar dan',
         welcome: 'Dobro došli na našu stranu',
         how_are_you: 'Kako ste danas?'
+    },
+    'bs_bh':{
+        hello: 'Vozdra raja',
+        welcome: 'Dobro došli',
+        how_are_you: 'Kako ste mi??'
     }
 }
 
